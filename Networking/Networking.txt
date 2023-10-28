@@ -1,0 +1,3 @@
+What is a network?
+A network is a connection of network enabled devices, typically made up of printers,computers,servers,routers,etc. Network allows all types of network enabled devices to communicate.
+4 types of network- PAN,LAN,MAN,WAN
