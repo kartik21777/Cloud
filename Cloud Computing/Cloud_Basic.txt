@@ -1,9 +1,24 @@
+Before with on premise there were a lot of problems like security, porblem with scaling,storage,etc.
+Cloud computing is the use of a network of remote servers hosted over the interned for managing,processing, store data rather than a local server. Cloud computing is also storing our data anywhere and accesing our data from anywhere. Companies that offers these services are known as cloud providers.
 Cloud Computing refers to delievery of on-demand computing resources over the internet with pay as you go basis.
+Benefits of cloud computing are pay as you go basis, no worry about security and space for hardware. You can also scale easily,
+
 3 types of deployment models- Public, Private and Hybrid
-Public is what cloud infrastructure is available to the normal people over the internet owned by cloud servive providers like aws, azure, etc.
-Private cloud is the cloud managed by a single organiszation, like a head branch managing the cloud while providing services it its state branch offices.
-Hybrid cloud is a mixture of public and private leverageing both of them.
-There are service models available-IAAS, PAAS, SAAS
+Public is what cloud infrastructure is available to the normal people over the internet owned by cloud servive providers like aws, azure, etc. We own nothing and everything is managed by the cloud providers.
+Private cloud is the cloud managed by a single organiszation, like a head branch managing the cloud while providing services it its state branch offices.The organiztion may run its private cloid or outsource it to a hosting company.
+Hybrid cloud is a mixture of public and private leverageing both of them,i.e. contains functionality of both of them. For example NASA uses private cloud to store sensitive data and public cloud to share data with others.
+There are 3 service models available-IAAS, PAAS, SAAS
 IAAS- Ifrastructure as a Service used if you want to manage the middleware,OS,Runtime, etc.
 PAAS- Platform as a service used if you want develop,test or mananage applications, only handle applications and data.
-SAAS- Software as a service used if you want to host and manage your applications on web.
+SAAS- Software as a service, cloud providers host and manage the software applications on a subscription basis. Client maintains the control of a software environment but does not maintain any equipment.
+
+Lifecycle of a Cloud Computing Soliution: First comes Defining the Purpose- Understand the requirements of the business and determine what type of applications to run on the cloud.
+Second comes Define the Hardware- Choose a compute service that will provide the right support where you resize the compute capacity in the cloud to run application programs.
+Third is Define the Storage- Choose a storage service where you can backup and archive your data over the internet.
+Fourth is Define the Network: Defince a network that securely delievers datat,videos,applications,etc. with low latency and high transfer speed.
+Fifth is Define the Security- Set up your security services which enable services for user authentication or limiting access to a certain set of users on your AWS resources.
+Sixth is Define Management Processes and Tools- You can have complete control on your cloud environment by defining management tools which monitor AWS resources and the customer applicatons running on AWS platform.
+Seventh is Testing the process- Verify the process using AWS developer tools where you can build,test and deploy your code quickly.
+The final process is Analytics- Finally, analyze and visualize data by using analytics services where you can start querying data instantly and get results, example how many users used which service as a graph.
+
+What is AWS -AWS (Amazon Web Services) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS) offerings.

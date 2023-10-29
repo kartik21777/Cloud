@@ -1,3 +1,5 @@
 What is a network?
 A network is a connection of network enabled devices, typically made up of printers,computers,servers,routers,etc. Network allows all types of network enabled devices to communicate.
 4 types of network- PAN,LAN,MAN,WAN
+While network protocols provide a unified method for communication, network standards govern the hardware and software that uses them.
+Network protocols and standards are closely related, but not the same. Network protocols are the logical rules that govern how data is communicated, while network standards are the physical and technical specifications that enable the implementation of network protocols.
