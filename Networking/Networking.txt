@@ -1,3 +1,17 @@
 What is a network?
 A network is a connection of network enabled devices, typically made up of printers,computers,servers,routers,etc. Network allows all types of network enabled devices to communicate.
+Switch: When we need computers to communicate with each other when they are in the same environment. Same environment means in same office,house, or at a close proximity to each other. We generally uses copper cables. Cat 5 cables are faster than Cat 6 cables, where Cat represents Category. If there is switch and you want to connect computers to it you need to use copper cables or optic fibre cables. You cannot use wireless technologies with switches. 
+If you want to connect devices in the same environment to connect with each other with wireless technology then you use an Access Point.
+Devices send information to each other in the form of packets. PC 1 send packets to switch, switch look inside the packet and learn it destination and then send the package to that destination.
+We create LANs with switches, hence the ports in switches are called as LAN ports. Even though we have connected computers with the help of LAN they are still not connected to the internet.
+The main task of a router is to enable computers to connect to the internet. Which means router is also used to connect to another LAN. We connect switch to router with the help of a copper cable. Still we need to connect router to internet. For this a special cable comes to our house and we connect to the internet with the help of it. This cable is provided to us by our ISP(Internet Service Provider).
+PC 1 send packets to switch, switch look inside the packet and learn it destination is router and then send the package to the router. Router learns that the destination of package is internet and sends the package to internet. This is how a computer is able to communicate to internet.
+You can think of internet as structure that connects all the LANs in the world.
+A home-router is a combo device that is a mixture of router and switch. Most home-router nowdays also have an acces point feature. In this way you can use wireless technology as well if you want. It can only used in small environments. In big environments(too many devices) you will have to use switches and routers as seperates devices.
+If we give entire of the load to a single point, we call this problem 'Single Point of Failure'.
+
+
 4 types of network- PAN,LAN,MAN,WAN
+
+While network protocols provide a unified method for communication, network standards govern the hardware and software that uses them.
+Network protocols and standards are closely related, but not the same. Network protocols are the logical rules that govern how data is communicated, while network standards are the physical and technical specifications that enable the implementation of network protocols.
