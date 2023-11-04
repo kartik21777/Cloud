@@ -12,4 +12,7 @@ ls *.?? - shows all the files with extension of 2 characters, example md
 ls *.??? - shows all the files with extension of 3 characters, example exe
 ls [[:upper:]]* -shows all the files starting with an uppercase characters
 ls [[:lower:]]* -shows all the files starting with lower case character 
-
+mkdir -p project01/project02 -makes a child directory of project02 inside the parend directory project01. mkdir project01/project02 will give an error
+We can use wildcards(*) with mkdir,mv,cd,rm,etc.
+rm filenmae - deletes the specified file. rm filenmae* -works
+for using rmdir projectt* -for using this the directories with their names starting with project, they have to be empty.  
