@@ -10,6 +10,7 @@ PC 1 send packets to switch, switch look inside the packet and learn it destinat
 You can think of internet as structure that connects all the LANs in the world.
 A home-router is a combo device that is a mixture of router and switch. Most home-router nowdays also have an acces point feature. In this way you can use wireless technology as well if you want. It can only used in small environments. In big environments(too many devices) you will have to use switches and routers as seperates devices.
 If we give entire of the load to a single point, we call this problem 'Single Point of Failure'.
+<<<<<<< HEAD
 Streaming:
 Servers are basically very strong computers.
 Udemy servers are distributed all over the world and you communicate with the most suitable server. All the server have same information.
@@ -33,6 +34,13 @@ Google uses peering and youtube is google owned so uses google servers hence les
 You connect your router to regional or Global ISPs directly, if such a service is avalaible in your area.
 
 Internet Backbone is the network that global ISPs set up with each other.
+=======
+All the cables under water is optic fibre cables as it has the fasted transmissions speed.
+Each router must have a special table called 'Router Table'. This table tells us which route the packet should choose. After receiving the package and learning its destination, router looks at the routing table and learns over which port the packet will be sent. This entire operation is called forwarding.
+Routers have special processors inside. These processors create Routing Tables by using special algorithms.
+A router always wants to deliever the packet to its destination in the fastest way possible.
+Congestion Control- Line 1 is the shortest distance between router1 and router2. Router1 might send package to Line2 which is longer than Line1 when Line1 has such high density of packets flowing through it that packet will reach Router2 faster with Line1 then with Line2. This situation is called congestion control.
+>>>>>>> 62dc0add7a87e793c8e1c0c46cf12baa3e6dac37
 
 4 types of network- PAN,LAN,MAN,WAN
 
