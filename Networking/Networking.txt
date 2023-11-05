@@ -1,5 +1,6 @@
 What is a network?
 A network is a connection of network enabled devices, typically made up of printers,computers,servers,routers,etc. Network allows all types of network enabled devices to communicate.
+Internet stands for Network of Networks.
 Switch: When we need computers to communicate with each other when they are in the same environment. Same environment means in same office,house, or at a close proximity to each other. We generally uses copper cables. Cat 5 cables are faster than Cat 6 cables, where Cat represents Category. If there is switch and you want to connect computers to it you need to use copper cables or optic fibre cables. You cannot use wireless technologies with switches. 
 If you want to connect devices in the same environment to connect with each other with wireless technology then you use an Access Point.
 Devices send information to each other in the form of packets. PC 1 send packets to switch, switch look inside the packet and learn it destination and then send the package to that destination.
@@ -9,7 +10,29 @@ PC 1 send packets to switch, switch look inside the packet and learn it destinat
 You can think of internet as structure that connects all the LANs in the world.
 A home-router is a combo device that is a mixture of router and switch. Most home-router nowdays also have an acces point feature. In this way you can use wireless technology as well if you want. It can only used in small environments. In big environments(too many devices) you will have to use switches and routers as seperates devices.
 If we give entire of the load to a single point, we call this problem 'Single Point of Failure'.
+Streaming:
+Servers are basically very strong computers.
+Udemy servers are distributed all over the world and you communicate with the most suitable server. All the server have same information.
+When we open amazon website, what happens is we send request packages and the amazon server sends reponse packages.
+Lets say i have office in mumbai and another office in Sydney. I want to connect these two offices, which will require a WAN. We can't connect these offices with the help of internet as if we send a important package from Mumbai, when the package enters the Internet, there is a possibility that hacker might modify the package. 
+The most cost effective method for setting up a WAN is VPN. VPN stands for virtual private network and it ensure our anonymity and encrypts our data. The most important feature of VPN is privacy. VPN tunneling provides us security, privacy and anonymity on the internet, by creating a special connection network over a public network.
+Tunneling technology makes the packet acts as if it was going through a physical tunnel, but in reality no tunnel is created. Packet will still go through under various router but under high security due to VPN tunneling.
+VPN is setup between router in Mumbai and router in Sydeny, and is called Site to Site VPN. We encrypt a packet before putting that packet into another packet and this how VPN provides security using tunneling feature.
 
+When we send important details, like giving amzon our credit cards details for buying something, the security is provided by End to End Encryption between end points. The main logic behind this is only the end points can decrypt the data. 
+Private WAN
+We use switches to create a Lan while we use rouuters to create a WAN.
+
+ISPs represent companies that enable us to connect to the internet for money. Router sends packets to Local ISPs. Local ISPs consists of various Point of Presence(POP) offices. In a POP, there can be routers, switches, servers, and so on. Each POP in Local ISPs is responsibe for a neighbourhood, i.e. communication between two computers inside a neighbourhood. Local ISPs connect neighbourhoods and Regional ISPs connect cites in a country.
+Network of a Country => Local ISPs + Regional ISPs.
+The line we buy from internet service providers is the line we use to connect our home router with Local ISPs.
+Global ISPS connect computers in different countries.
+Some Local ISPs can connect to Global ISPs directly. It happens when Local ISPS location is such that its closer to Global ISPS than Regional ISPS. Or it happens when companies pay extra money to make such connections so that there is faster data transfer.
+Lets say you open Google. Your packet will pass through various Local ISPs before reaching the google server and then from Google server to your home which takes time. In order to fasten the response time what Google do is a process called Peering. In this Google server directlty connects to the Local ISP which is responisble for your neighbourhood. Since packet travels from Google server to the Local ISP directly it is much faster. Also less use of Local ISPs so greater security. Peering increasing speed and streaming quality.
+Google uses peering and youtube is google owned so uses google servers hence less buffering. Udemy doesn't uses peering so more buffering, freezing, etc.
+You connect your router to regional or Global ISPs directly, if such a service is avalaible in your area.
+
+Internet Backbone is the network that global ISPs set up with each other.
 
 4 types of network- PAN,LAN,MAN,WAN
 
