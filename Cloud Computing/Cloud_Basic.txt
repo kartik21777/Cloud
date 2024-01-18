@@ -5,7 +5,7 @@ Benefits of cloud computing are pay as you go basis, no worry about security and
 
 3 types of deployment models- Public, Private and Hybrid
 Public is what cloud infrastructure is available to the normal people over the internet owned by cloud servive providers like aws, azure, etc. We own nothing and everything is managed by the cloud providers.
-Private cloud is the cloud managed by a single organiszation, like a head branch managing the cloud while providing services it its state branch offices.The organiztion may run its private cloid or outsource it to a hosting company.
+Private cloud is the cloud managed by a single organiszation, like a head branch managing the cloud while providing services to its state branch offices.The organiztion may run its private cloid or outsource it to a hosting company.
 Hybrid cloud is a mixture of public and private leverageing both of them,i.e. contains functionality of both of them. For example NASA uses private cloud to store sensitive data and public cloud to share data with others.
 There are 3 service models available-IAAS, PAAS, SAAS
 IAAS- Ifrastructure as a Service used if you want to manage the middleware,OS,Runtime, etc.
